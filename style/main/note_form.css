@@ -1,0 +1,60 @@
+.note_form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+    padding: 30px;
+}
+
+form {
+    overflow: auto;
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.note_form form textarea {
+    resize: none;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+.note_form form input,
+.note_form form select,
+.note_form form textarea {
+    margin: 0 0 5px 0;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid lightslategrey;
+    font-family: 'Caveat', cursive;
+
+}
+
+.note_form form input,
+.note_form form select {
+    width: 250px;
+    font-size: 0.9em;
+}
+
+.note_form form input:focus,
+.note_form form select:focus,
+.note_form form textarea:focus  {
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid lightslategrey;
+}
+
+.note_form__button {
+    background: white;
+    cursor: pointer;
+}
+

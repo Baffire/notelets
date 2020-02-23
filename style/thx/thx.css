@@ -1,0 +1,48 @@
+.thx {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.thx__title {
+    margin: 0 0 20px 0;
+    font-size: 0.8em;
+}
+
+.thx__text {
+    margin: 0 0 20px 0;
+    font-family: 'Caveat', cursive;
+    font-size: 1.2em;
+}
+
+.thx__link {
+    margin: 0 0 20px 0;
+    font-family: 'Caveat', cursive;
+    font-size: 1em;
+    border: 1px solid lightslategrey;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.thx__return_button button {
+    background: white;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid lightslategrey;
+    font-family: 'Caveat', cursive;
+    font-size: 0.9em;
+}
+
+.thx__return_button button a {
+    display: block;
+    line-height: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}

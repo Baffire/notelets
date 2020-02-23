@@ -1,0 +1,23 @@
+.body {
+    background-size: cover;
+}
+
+.happy_birthday {
+    background-image: url("../../img/notelet/happy_birthday.jpg");
+}
+
+.new_year {
+    background-image: url("../../img/notelet/new_year.jpg");
+}
+
+.valentines_day {
+    background-image: url("../../img/notelet/valentins.jpg");
+}
+
+.merry_christmas {
+    background-image: url("../../img/notelet/merry_christmas.jpg");
+}
+
+.halloween {
+    background-image: url("../../img/notelet/halloween.jpg");
+}
