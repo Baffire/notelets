@@ -1,5 +1,5 @@
 <?php
-/*Данный класс осуществляет запись записок в базу данных и проверку полей
+/*Class write notelet in DB
 ================================*/
 namespace controllers;
 
@@ -23,7 +23,7 @@ class Notelets
 		$this->theme = $this->controlData($theme);
 	}
 
-	public function setNote() //Метод записывает в базу записку и возвращает ее id
+	public function setNote() //Method write notelet and return id
 	{
 		$query = "INSERT INTO notelets SET title='$this->title', text='$this->text', theme='$this->theme'";
 		mysqli_query($this->connect(), $query);

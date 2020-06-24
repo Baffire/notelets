@@ -1,5 +1,5 @@
 <?php
-/*Данный класс формирует ссылки на записки
+/*Class generates link on notelet
 ================================*/
 namespace controllers;
 
@@ -11,7 +11,7 @@ class Links
 
 	public $id;
 
-	public function getId() //Метод получает последний ID из базы
+	public function getId() //Method gets last id from DB
 	{
 		$query = "SELECT MAX(id) FROM notelets";
 		$result = mysqli_query($this->connect(), $query);
@@ -19,7 +19,7 @@ class Links
 		return $id[0];
 	}
 
-	public function getLink() //Метод формирует ссылку на записку
+	public function getLink() //Method forms link on notelet
 	{
 		$server_addr_path = $_SERVER['HTTP_HOST'];
 		$directory_path = $_SERVER['REQUEST_URI'];
