@@ -1,5 +1,5 @@
 <?php
-/*Данный класс осуществляет подключение к БД
+/*This class allows connect to DB
 ================================*/
 namespace config;
 

@@ -1,5 +1,5 @@
 <?php
-/*Данный класс осуществляет вывод записок из базы
+/*Class get notelets from DB
 ================================*/
 namespace controllers;
 
@@ -9,7 +9,7 @@ class Notelet
 {
 	use Database;
 
-	public function getNote($id) //Метод получает из базы записку
+	public function getNote($id) //Get one notelet
 	{
 		$query = "SELECT * FROM notelets WHERE id='$id'";
 		$result = mysqli_query($this->connect(), $query);
